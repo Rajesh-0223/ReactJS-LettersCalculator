@@ -1,0 +1,80 @@
+/* Write your code here. */
+* {
+  font-family: 'Roboto';
+}
+.app-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-container {
+  color: #ffffff;
+}
+.heading {
+  max-width: 300px;
+}
+.input {
+  background-color: transparent;
+  border: 1px solid #e4e7eb;
+  border-radius: 5px;
+  height: 30px;
+  outline: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px;
+}
+.result {
+  height: 60px;
+  width: 150px;
+  color: #219a6f;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 320px;
+  width: 320px;
+}
+@media screen and (max-width: 576px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-container {
+    order: 1;
+  }
+  .heading {
+    font-size: 20px;
+    text-align: center;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+}
